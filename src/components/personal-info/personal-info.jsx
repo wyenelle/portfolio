@@ -26,8 +26,9 @@ const PersonalInfo = () => {
             <p className='text-gray-400 text-xl font-[600] border px-3'>Typescript</p>
             <p className='text-gray-400 text-xl font-[600] border px-3'>Vue</p>
             <p className='text-gray-400 text-xl font-[600] border px-3'>Node</p>
+            <p className='text-gray-400 text-xl font-[600] border px-3'>Python</p>
         </div>
-        <div className='flex items-center justify-between w-1/2 '>
+        <div className='flex items-center justify-between w-1/2 lg:[mt-[2rem]'>
             <a href="https://twitter.com/shunnode">
                 <FaXTwitter size={20}/>
             </a>

@@ -2,21 +2,94 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <section className='lg:my-[2rem]'>
-      <h3 className='sticky top-[3rem] mb-[1.5rem] bg-black text-white py-3 lg:top-[-1rem] lg:py-7 lg:mb-[0.2rem] '>Experience</h3>
-      <p>
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. Fast-forward to today, and I’ve had the privilege of
-        building software for an advertising agency, a start-up, a student-led
-        design studio, and a huge corporation. My main focus these days is
-        building products and leading projects for our clients at Upstatement.
-        In my free time I've also released an online video course that covers
-        everything you need to know to build a web app with the Spotify API.
-        When I’m not at the computer, I’m usually rock climbing, hanging out
-        with my wife and two cats, or running around Hyrule searching for Korok
-        seeds Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique atque quaerat minima expedita! Ipsa impedit aspernatur mollitia eligendi atque deserunt illum quis. Voluptate, non necessitatibus. Quia ipsam aperiam, dolores quos perferendis alias. Dolores architecto quod nesciunt repellendus repellat ad blanditiis, possimus, facilis incidunt nisi expedita accusantium hic itaque sapiente temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint nulla architecto quibusdam eum, unde reiciendis atque necessitatibus facere adipisci autem vitae soluta alias similique obcaecati minus aperiam quas error id voluptas aspernatur illum iure dicta! Exercitationem id esse iure necessitatibus porro? Repellat hic, porro rerum et at minus adipisci officiis dolore quis sint est suscipit facilis alias? Nostrum quibusdam ullam voluptatibus suscipit odit quaerat. Beatae veritatis voluptatem perspiciatis numquam alias quos nam, eligendi excepturi ad non modi laudantium laborum optio repellat ratione fugit asperiores ex minus cupiditate libero, officiis iusto. Repellendus laboriosam dolorum corrupti nisi ut earum aliquid animi!
-      </p>
+    <section className="lg:my-[2rem] my-[3rem]">
+      <h3 className="sticky top-[3rem] mb-[1.5rem] bg-black text-white py-3 lg:top-[-1rem] lg:py-7 lg:mb-[0.2rem] ">
+        Experience
+      </h3>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            Sept 2023 - Present
+          </span>
+          <strong className="experience-title text-[14px]">
+            Pit Africa
+          </strong>
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            Frontend Developer
+          </span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          recusandae nostrum obcaecati sequi, voluptatem iure omnis, ipsa quos
+          blanditiis magni labore? Aliquam quis nisi tempora, aperiam, dolores
+          molestias quos quisquam aut neque aliquid dignissimos accusamus quam
+          ab rem laudantium placeat beatae? Quaerat blanditiis repudiandae atque
+          ea quisquam, nihil ducimus, odio laboriosam impedit sunt error, fugit
+          tempora dignissimos libero dolor? Illum!
+        </p>
+        <div className="italic flex shrink-0 flex-wrap">
+          <p className="px-2 border rounded-lg">React</p>
+          <p className="px-2 border rounded-lg">Typescript</p>
+          <p className="px-2 border rounded-lg">Git</p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-4 my-[2.5rem] lg:my-[2rem]">
+        <div className="flex flex-col gap-2">
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            May 2023 - Sept 2023
+          </span>
+          <strong className="experience-title text-[14px]">
+            Leand Support
+          </strong>
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            Web development Tutor
+          </span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          recusandae nostrum obcaecati sequi, voluptatem iure omnis, ipsa quos
+          blanditiis magni labore? Aliquam quis nisi tempora, aperiam, dolores
+          molestias quos quisquam aut neque aliquid dignissimos accusamus quam
+          ab rem laudantium placeat beatae? Quaerat blanditiis repudiandae atque
+          ea quisquam, nihil ducimus, odio laboriosam impedit sunt error, fugit
+          tempora dignissimos libero dolor? Illum!
+        </p>
+        <div className="italic flex shrink-0 flex-wrap">
+          <p className="px-2 border rounded-lg">HTML</p>
+          <p className="px-2 border rounded-lg">CSS</p>
+          <p className="px-2 border rounded-lg">Javascript</p>
+          <p className="px-2 border rounded-lg">Tailwind CSS</p>
+          <p className="px-2 border rounded-lg">Python</p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            aug 2022 - Apr 2023
+          </span>
+          <strong className="experience-title text-[14px]">
+            Ingressive for Good
+          </strong>
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+          Frontend Developer Intern
+          </span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          recusandae nostrum obcaecati sequi, voluptatem iure omnis, ipsa quos
+          blanditiis magni labore? Aliquam quis nisi tempora, aperiam, dolores
+          molestias quos quisquam aut neque aliquid dignissimos accusamus quam
+          ab rem laudantium placeat beatae? Quaerat blanditiis repudiandae atque
+          ea quisquam, nihil ducimus, odio laboriosam impedit sunt error, fugit
+          tempora dignissimos libero dolor? Illum!
+        </p>
+        <div className="italic flex shrink-0 flex-wrap">
+          <p className="px-2 border rounded-lg">React</p>
+          <p className="px-2 border rounded-lg">CSS</p>
+          <p className="px-2 border rounded-lg">Git</p>
+          <p className="px-2 border rounded-lg">Github</p>
+        </div>
+      </div>
     </section>
   )
 }

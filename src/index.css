@@ -8,5 +8,12 @@
 
 h1,h2,h3,h4,h5,h6,.desktop-link{
   font-family: 'Kanit', sans-serif;
-  /* font-family: 'Lemon', serif; */
+}
+.dates{
+  font-family: 'Lemon', serif;
+  font-weight: 100;
+}
+.experience-title{
+  font-family: 'lemon', sans-serif;
+  font-weight: 100;
 }

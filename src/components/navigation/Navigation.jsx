@@ -4,7 +4,7 @@ import ReactJpg from '../../assets/react.jpg'
 
  const Navigation = () => {
   return (
-    <nav className=" h-auto fixed top-0  right-0 left-0 bg-black text-white z-10 ">
+    <nav className=" h-auto fixed top-0  py-3   right-0 left-0 bg-black text-white z-10 lg:py-0 ">
       <div className="flex justify-between items-center  w-[90%] mx-auto ">
         <div className='lg:flex gap-4 items-center'>
           <div className=" h-[2.5rem] w-[2.5rem] rounded-full lg:w-[3rem] lg:h-[3rem]  ">

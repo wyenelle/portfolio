@@ -1,13 +1,35 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
+const containerVariants = {
+  hidden: {opacity: 0},
+  visible: {opacity: 1},
+  transition: {when:"beforeChildren", staggerChildren: 0.4}
+}
+const ChildVariants = {
+  hidden: {opacity: 0,scale: 0}, visible: {opacity: 1, scale: 1},
+  transition: {ease: "easeInOut",duration: 2}
+}
 const Experience = () => {
+
   return (
-    <section className="lg:my-[2rem] my-[3rem]">
-      <h3 className="sticky top-[3rem] mb-[1.5rem] bg-black text-white py-3 lg:top-[-1rem] lg:py-7 lg:mb-[0.2rem] ">
+    <motion.section 
+      initial = "hidden"
+      whileInView= "visible"
+      variants= {containerVariants}
+      className="lg:my-[2rem] my-[3rem]">
+      <h3 className="sticky top-[3.5rem] mb-[1.5rem] bg-black text-white py-4 lg:top-[-1rem] lg:py-7 lg:mb-[0.2rem]  ">
         Experience
       </h3>
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-col gap-2">
+      <motion.div 
+        initial = "hidden"
+        whileInView = "visible"
+        variants={ChildVariants}
+        viewport={{once:true}}
+        className="flex flex-col gap-4">
+        <div 
+          
+          className="flex flex-col gap-2">
           <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
             Sept 2023 - Present
           </span>
@@ -32,8 +54,13 @@ const Experience = () => {
           <p className="px-2 border rounded-lg">Typescript</p>
           <p className="px-2 border rounded-lg">Git</p>
         </div>
-      </div>
-      <div className="flex flex-col gap-4 my-[2.5rem] lg:my-[2rem]">
+      </motion.div>
+      <motion.div 
+        initial = "hidden"
+        whileInView = "visible"
+        variants={ChildVariants}
+        viewport={{once:true}}
+        className="flex flex-col gap-4 my-[2.5rem] lg:my-[2rem]">
         <div className="flex flex-col gap-2">
           <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
             May 2023 - Sept 2023
@@ -61,8 +88,13 @@ const Experience = () => {
           <p className="px-2 border rounded-lg">Tailwind CSS</p>
           <p className="px-2 border rounded-lg">Python</p>
         </div>
-      </div>
-      <div className="flex flex-col gap-4">
+      </motion.div>
+      <motion.div 
+        initial = "hidden"
+        whileInView = "visible"
+        variants={ChildVariants}
+        viewport={{once:true}}
+        className="flex flex-col gap-4">
         <div className="flex flex-col gap-2">
           <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
             aug 2022 - Apr 2023
@@ -89,8 +121,8 @@ const Experience = () => {
           <p className="px-2 border rounded-lg">Git</p>
           <p className="px-2 border rounded-lg">Github</p>
         </div>
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   )
 }
 

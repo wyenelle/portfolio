@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <footer className="h-auto e ">
-        <div className="h-[25rem] border-4 w-full grid-rows-2 relative ">
+        <div className="h-[25rem] w-full grid-rows-2 relative ">
             <div className=" bg-red-500 h-1/2 w-full"></div>
             <div className=" bg-blue-500 h-1/2 w-full"></div>
             <div className="absolute top-0 h-full flex justify-center items-center w-full  border-2">

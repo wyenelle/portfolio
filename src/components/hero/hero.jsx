@@ -1,6 +1,7 @@
 import React from 'react'
 import PersonalInfo from '../personal-info/personal-info'
 import SecCol from '../sec-col/sec-cpl'
+import Framer from '../framer/framer'
 
 const Hero = () => {
 

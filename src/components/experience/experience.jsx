@@ -26,7 +26,7 @@ const Experience = () => {
         whileInView = "visible"
         variants={ChildVariants}
         viewport={{once:true}}
-        className="flex flex-col gap-4">
+        className="flex flex-col gap-4 lg:my-3 lg:gap-2">
         <div 
           
           className="flex flex-col gap-2">
@@ -40,15 +40,19 @@ const Experience = () => {
             Frontend Developer
           </span>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-          recusandae nostrum obcaecati sequi, voluptatem iure omnis, ipsa quos
-          blanditiis magni labore? Aliquam quis nisi tempora, aperiam, dolores
-          molestias quos quisquam aut neque aliquid dignissimos accusamus quam
-          ab rem laudantium placeat beatae? Quaerat blanditiis repudiandae atque
-          ea quisquam, nihil ducimus, odio laboriosam impedit sunt error, fugit
-          tempora dignissimos libero dolor? Illum!
-        </p>
+        <ul className=''>
+          <li>
+          Implemented optimizations to enhance website performance, aiming for a 20% reduction in page load time to improve overall user experienc
+          </li><br />
+
+        <li>
+        Collaborate with UI/UX designers and backend developers to implement 3 new features within the current sprint cycle, enhancing the functionality and user engagement of our web applications..
+        </li><br />
+
+        <li>
+        Actively contribute to design and code reviews, aiming for a 90% participation rate to foster collaboration and maintain code quality standards within the development team.
+        </li><br />
+        </ul>
         <div className="italic flex shrink-0 flex-wrap">
           <p className="px-2 border rounded-lg">React</p>
           <p className="px-2 border rounded-lg">Typescript</p>
@@ -72,15 +76,17 @@ const Experience = () => {
             Web development Tutor
           </span>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-          recusandae nostrum obcaecati sequi, voluptatem iure omnis, ipsa quos
-          blanditiis magni labore? Aliquam quis nisi tempora, aperiam, dolores
-          molestias quos quisquam aut neque aliquid dignissimos accusamus quam
-          ab rem laudantium placeat beatae? Quaerat blanditiis repudiandae atque
-          ea quisquam, nihil ducimus, odio laboriosam impedit sunt error, fugit
-          tempora dignissimos libero dolor? Illum!
-        </p>
+        <ul>
+          <li>
+          Created initial assessment for over 100students,identifying strengths and areas for improvements and achieved 95% satisfaction rate through feedbacks and adjustment
+          </li><br />
+          <li>
+          Created and delivered 20+  in-depth tutorials,which in turn led to rapid improvements in  over 65% of students.
+          </li><br />
+          <li>
+          Implemented hands-on exercises with frameworks, contributing to a 40% increase in practical application.
+          </li><br />
+        </ul>
         <div className="italic flex shrink-0 flex-wrap">
           <p className="px-2 border rounded-lg">HTML</p>
           <p className="px-2 border rounded-lg">CSS</p>
@@ -95,26 +101,63 @@ const Experience = () => {
         variants={ChildVariants}
         viewport={{once:true}}
         className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2 lg:my-3">
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+            aug 2022 - Apr 2023
+          </span>
+          <strong className="experience-title text-[14px]">
+            HighFly Tec World
+          </strong>
+          <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
+          Web development Tutor
+          </span>
+        </div>
+        <ul>
+          <li>
+          Ensured over 30 students understood the basis of web development that resulted in 55% increase in projects delivered within the same time frame as compared to the previous semester
+          </li><br />
+          <li>
+          Mentored a group of 23 students growth in web development over the course of 3 months which resulted in a 65% increase in students being promoted to the next class as compared to previous semesters
+          </li><br />
+          <li>
+          Monitored and graded projects, quizzes and examination that accumulated in a 50% success rate which subsequently increased the company’s student intake the next semester 
+          </li><br />
+        </ul>
+        <div className="italic flex shrink-0 flex-wrap">
+          <p className="px-2 border rounded-lg">React</p>
+          <p className="px-2 border rounded-lg">CSS</p>
+          <p className="px-2 border rounded-lg">Git</p>
+          <p className="px-2 border rounded-lg">Github</p>
+        </div>
+      </motion.div>
+      <motion.div 
+        initial = "hidden"
+        whileInView = "visible"
+        variants={ChildVariants}
+        viewport={{once:true}}
+        className="flex flex-col gap-4  mt-7">
         <div className="flex flex-col gap-2">
           <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
             aug 2022 - Apr 2023
           </span>
           <strong className="experience-title text-[14px]">
-            Ingressive for Good
+            HNG Internship
           </strong>
           <span className="text-gray-400 text-[10px] font-semibold dates lg:text-[13px]">
-          Frontend Developer Intern
+          Frontend developer Intern
           </span>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-          recusandae nostrum obcaecati sequi, voluptatem iure omnis, ipsa quos
-          blanditiis magni labore? Aliquam quis nisi tempora, aperiam, dolores
-          molestias quos quisquam aut neque aliquid dignissimos accusamus quam
-          ab rem laudantium placeat beatae? Quaerat blanditiis repudiandae atque
-          ea quisquam, nihil ducimus, odio laboriosam impedit sunt error, fugit
-          tempora dignissimos libero dolor? Illum!
-        </p>
+        <ul>
+          <li>
+          Teamed up with 8 other developers to convert Figma designs into responsive user interfaces.and also Identified and resolved javascript logic  bugs, ensuring smooth website functionality and a seamless user experience.
+          </li><br />
+          <li>
+          Led a team of 8 frontend developers that Implemented 3 Landing pages, user’s dashboard, and inventory carts, surpassing project deadlines and showcasing exceptional  organisational skills and collaborative efficiency
+          </li><br />
+          <li>
+          Collaborated with a team of 3 backend developers to Implement endpoint integration including user’s authentication (sign-up and login) in 2 days thereby preventing the team from being eliminated
+          </li><br />
+        </ul>
         <div className="italic flex shrink-0 flex-wrap">
           <p className="px-2 border rounded-lg">React</p>
           <p className="px-2 border rounded-lg">CSS</p>

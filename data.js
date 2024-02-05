@@ -1,7 +1,15 @@
+import LMS from './src/assets/lms.png'
+import Market from './src/assets/marketplace.png' 
+import Oportun from './src/assets/oportun.png'
+import AutoZone from './src/assets/autozone.png'
+
+import Pharmahub from './src/assets/pharmahub.png'
+import Pit from './src/assets/pit.png'
+
 export const arrayOfObject1 = [
     {
       id: 1,
-      image: '',
+      image: LMS,
       alt: ' ',
       title: 'Learning Management System',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
@@ -11,7 +19,7 @@ export const arrayOfObject1 = [
     },
     {
       id: 2,
-      image: '',
+      image: Market,
       alt: ' ',
       title: 'MarketPlace',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
@@ -21,7 +29,7 @@ export const arrayOfObject1 = [
     },
     {
       id: 3,
-      image: '',
+      image: Oportun,
       alt: ' ',
       title: 'Oportun ',
       description: " A clone of the Oportun landing page",
@@ -31,11 +39,11 @@ export const arrayOfObject1 = [
     },
     {
       id: 4,
-      image: '',
+      image: AutoZone,
       alt: ' ',
-      title: 'Fetch All ',
-      description: " Fetch all git respositories for a user",
-      skills: ['Vue','TailwindCSS', 'Github API'],
+      title: 'AutoZone ',
+      description: " A Car for Hire Clone",
+      skills: ['React','CSS'],
       link: ''
   
     },
@@ -44,7 +52,7 @@ export const arrayOfObject1 = [
   export const arrayOfObject2 = [
     {
       id: 1,
-      image: '',
+      image: Pharmahub,
       alt: ' ',
       title: 'Pharmahub',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
@@ -54,7 +62,7 @@ export const arrayOfObject1 = [
     },
     {
       id: 2,
-      image: '',
+      image: Pit,
       alt: ' ',
       title: 'Pit Africa',
       description: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique",
